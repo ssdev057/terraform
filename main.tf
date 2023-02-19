@@ -13,7 +13,8 @@ resource "aws_instance" "tf_new_inst" {
 	ami = "ami-0597375488017747e"
 	instance_type = "t2.micro"
 	tags = {
-		Name = "tf_new_inst"
+		Name = "tf_new_inst_user2"
 	}
 }
+
 
